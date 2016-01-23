@@ -67,7 +67,6 @@ class DBObject(object):
         """
         Return a temp_event entry based on its id.
         :param entry_id:
-        :param max_results:
         :return:
         """
         conn = self.db.cursor()
